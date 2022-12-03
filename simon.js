@@ -7,7 +7,7 @@ let level = 0;
 //
 function smartPhone() {
   if (!started) {
-    $("#level-title").text("level " + level);
+    $("#phone-level").text("level " + level);
     nextSequance();
     started = true;
   }
@@ -47,6 +47,7 @@ function checkAnswer(currentLevel) {
     }, 200);
     startOver();
     $("#level-title").text("Game Over, Press Any Key to Restart");
+    $("#phone-level").text("Game Over, Press Any Key to Restart");
   }
 }
 //
@@ -55,6 +56,7 @@ function nextSequance() {
   level++;
   // change h1 to level number
   $("#level-title").text("level " + level);
+  $("#phone-level").text("level " + level);
   // randomizes number to choose random button
   let randomNumber = Math.floor(Math.random() * 4);
   let randomChosenColor = buttonColors[randomNumber];
