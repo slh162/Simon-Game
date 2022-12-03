@@ -1,0 +1,77 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+@media (min-width:900px) {
+  #level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2rem;
+  margin:  4%;
+  color: #FEF2BF;
+}
+#phone-level{
+  visibility: hidden;
+}
+.btn {
+  margin: 20px;
+  display: inline-block;
+  height: 160px;
+  width: 170px;
+  border: 10px solid black;
+  border-radius: 30%;
+}
+}
+@media(max-width:900px){
+  #level-title{
+    visibility: hidden;
+  }
+  .btn {
+    margin: 4px;
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    border: 4px solid black;
+    border-radius: 30%;
+  }
+  #phone-level{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2rem;
+    margin:  3%;
+    color: #e5dcb3;
+  }
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
