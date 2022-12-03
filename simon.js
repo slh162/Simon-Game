@@ -47,7 +47,7 @@ function checkAnswer(currentLevel) {
     }, 200);
     startOver();
     $("#level-title").text("Game Over, Press Any Key to Restart");
-    $("#phone-level").text("Game Over, Press Any Key to Restart");
+    $("#phone-level").text("Game Over, start again");
   }
 }
 //
